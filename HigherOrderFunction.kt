@@ -4,7 +4,7 @@ HOF are functions that either accepts functions as argument or return functions 
 
 fun main()
 {
-    println(calculator(5,4, ::sum))
+    println(calculator(5,6, ::sum))
 }
 
 fun sum(a: Int, b: Int): Int {
