@@ -1,3 +1,10 @@
+/*
+Lambda expression - A function without name.
+Normal functions consist of 4 things i.e. name, body,input parameter and a return statement but lambda functions
+only consist of input parameters and the function's body. Its return type is the same as the last line.
+
+*/
+
 fun main()
 {
     val lambda1 = {x: Int, y: Int -> x+y}

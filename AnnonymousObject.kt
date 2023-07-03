@@ -1,3 +1,5 @@
+// Anonymous objects is similar to singleton objects, but without the name of the object.
+
 fun drawCircle()
 {
     val circle = object {
@@ -18,3 +20,11 @@ fun main()
     val aRunnable = createRunnable()
     aRunnable.run()
 }
+
+/*
+If you need a name for your anonymous object, or need it to store for later use,
+you can initialize a variable with it.
+Example:
+
+val runnable = object : Runnable { }
+*/

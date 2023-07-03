@@ -1,3 +1,12 @@
+/*
+String templates are String literals that contain embedded expressions.
+
+For example, this code in Java:
+String message = "n = " + n;
+
+In Kotlin is just:
+val message = "n = $n"
+*/
 fun main()
 {
     var factor = 2

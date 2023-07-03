@@ -1,3 +1,17 @@
+/*
+Raw string is placed inside the triple quotes (“””….”””) and it does not have escape characters.
+It provides the facility of writing the string into multiple lines so it is also called multi-line string.
+
+Escape Characters:
+
+
+\n : for newline
+\’ : for single quote
+\\ : for backslash
+\t : for tab
+\b : for backspace
+
+*/
 fun createMemoForWithIndentation(name: String): String {
     if (name == "Eve")
     {

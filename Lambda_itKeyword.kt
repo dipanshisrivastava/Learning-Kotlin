@@ -1,5 +1,5 @@
 // First go through Lambda Expression file
-
+// If there is single input parameter in lambda expression then it can be referred using it.
 fun main()
 {
     val singleparameter = {x: Int -> x*x}

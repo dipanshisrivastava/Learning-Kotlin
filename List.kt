@@ -1,5 +1,7 @@
+// Array<T> is mutable by default
 // listOf() is immutable
 // mutableListOf() is mutable
+// Mutable List is not of fixed size unlike array.
 
 fun main()
 {

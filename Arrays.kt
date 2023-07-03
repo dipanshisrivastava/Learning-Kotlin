@@ -1,3 +1,5 @@
+// Array<T> is mutable
+// 	Array is of fixed size. It cannot increase and decrease in size.
 fun main()
 {
     val friends = arrayOf("Riya", "Raj", "Jhon", "Tintin")

@@ -1,4 +1,7 @@
 // Nullable reference ----------->  ?
+
+// A non-nullable variable cannot hold a null value until you explicitly let it hold null.
+// To declare a nullable variable, kotlin allow you to add ‘?’ after the data type.
 fun title(name: String?) : String?
 {
 

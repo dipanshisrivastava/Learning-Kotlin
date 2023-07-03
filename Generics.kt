@@ -32,7 +32,4 @@ fun main()
     val iobj = Container<Int>(5)
     println(sobj.getValue())
     println(iobj.getValue())
-
-
-
 }

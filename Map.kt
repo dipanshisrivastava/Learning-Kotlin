@@ -1,3 +1,10 @@
+/*
+Map is a collection that contains pairs of objects.
+Map holds the data in the form of pairs which consists of a key and a value.
+Map keys are unique and the map holds only one value for each key.
+There are immutable and mutable maps, i.e mapOf() and mutableMapOf().
+*/
+
 fun main()
 {
     val sites = mapOf("pragprog" to "https://www.pragprog.com",
